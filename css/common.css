@@ -1,0 +1,306 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-08 15:07:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-20 18:55:45
+*/
+.tl {
+
+	overflow: hidden;
+	height: 30px;
+	 background: #f1f1f1; 
+	 
+}
+.biaoT {
+	background: #fff;
+}
+.biaoT .leftL li {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #646464;
+
+}
+.biaoT .leftL li a {
+	color: #c5171f;
+	font-size: 14px;
+}
+.biaoT .leftL li span {
+	margin: 0 14px;
+}
+.biaoT .right li {
+	line-height: 30px;
+}
+.biaoT .right .link {
+	width: 1px;
+	height: 14px;
+	background: #666666;
+	margin: 8px 14px;
+}
+.biaoT .right li i {
+	color: #666;
+	 margin-left:14px;
+ }
+
+
+/*  导航部分 */
+.qb {
+	border-bottom: 2px solid red;
+}
+.nav {
+	height: 150px;
+	position: relative;
+	 /* background: pink;  */
+
+}
+
+ .nav .logo a {
+    display: block; 
+	height: 100px;
+	width:173px;
+	background:url('../imgas/logo.png') no-repeat;
+	font-size: 0px;
+} 
+.search {
+	height:32px;
+	width: 537px;
+	/* background: red; */
+	position: absolute;
+	top:30px;
+	left:347px;
+	border:1px solid #b11a1a;
+}
+input[type="text"] {
+	float: left;
+	width: 442px;
+	height: 32px;
+	outline: none;
+	border:none;
+	color: 16px;
+	font-size: 16px;
+	padding-left: 11px;
+/* 	background: red; */
+}
+input[type="button"] {
+   outline: none;
+	border:none;
+	width:84px;
+	height: 32px;
+	background:#b11a1a;
+	font-size: 16px;
+	color: #eed5ce;
+} 
+
+.car {
+	float:right;
+	height: 34px;
+	width: 138px;
+	 background: #f7f7f7; 
+	margin-top: 25px;
+	margin-right: 63px;
+	font-size: 13px;
+	position: relative;
+}
+
+.car .jL {
+    float: left;
+	height: 15px;
+	width: 20px;
+	background: url('../imgas/icons.png') no-repeat -415px -90px;
+	margin-left: 19px;
+	margin-top: 10px;
+	margin-right: 6px;
+	font-size: 15px;
+
+}
+.car span {
+	line-height: 34px;
+	text-align: center;
+}
+.car span:nth-child(3) {
+	margin-left: 15px;
+}
+.car .jd {
+	width: 16px;
+	height: 16px;
+	border-radius: 8px 8px 8px 0;
+	background: red;
+	position: absolute;
+	right: 18px;
+	top: -8px;
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+}
+
+ .nav .dd {
+     position: absolute;
+     left: 358px;
+     top: 69px;
+}
+.nav .dd li {
+	float: left;
+	margin-right: 28px;
+	font-size: 14px;
+	color: #636363;
+}
+ 
+.nav .xdd  {
+	 position: absolute;
+     left: 295px;
+     top: 120px;
+}
+.nav .xdd li {
+	float: left;
+	margin-right: 47px;
+	font-size: 16px;
+	color:#909090;
+}
+ .xdd li a {
+	color:#000504;
+}
+
+/* 底部内容 */
+.tlx {
+	background: #f5f5f5;
+
+}
+ .footer {
+    height: 416px;
+    padding-left: 40px;
+
+    /* background: pink; */
+}
+.tb {
+	    height: 112px;
+		border-bottom: 0.5px solid #c6c6c6;
+		margin-bottom: 21px;
+
+}
+.tb li {
+	width:20%;
+	height: 52px;
+	/* background: pink; */
+    margin-top: 38px;
+
+
+}
+.tb .zp1 {
+	width: 52px;
+	height: 52px;
+	 background: red;
+	border-radius: 26px;
+	
+	background:url('../imgas/icons.png') no-repeat -252px 1px;
+	/* background:url('../imgas/icons.png') no-repeat -252px 1px; */
+	/* margin-top: 28px; */
+		/* background:url('../imgas/icons.png') no-repeat -252px 54px;
+			background:url('../imgas/icons.png') no-repeat -252px 106px;
+				background:url('../imgas/icons.png') no-repeat -252px 157px;
+					background:url('../imgas/icons.png') no-repeat -252px 209px; */
+}
+.tb .zp2 {
+	width: 52px;
+	height: 52px;
+/* 	 background: red; */
+	border-radius: 26px;
+	background:url('../imgas/icons.png') no-repeat -252px -54px;
+}
+.tb .zp3 {
+	width: 52px;
+	height: 52px;
+	 background: red;
+	border-radius: 26px;
+	background:url('../imgas/icons.png') no-repeat -252px -105px;
+}
+.tb .zp4 {
+	width: 52px;
+	height: 52px;
+	 background: red;
+	border-radius: 26px;
+	background:url('../imgas/icons.png') no-repeat -252px -157px;
+}
+.tb .zp5 {
+	width: 52px;
+	height: 52px;
+	 background: red;
+	border-radius: 26px;
+	background:url('../imgas/icons.png') no-repeat -252px -209px;
+}
+
+
+
+ .tb li .wen {
+
+	margin-left: 7px;
+	margin-top: 8px;
+    
+} 
+.tb li .wen h5 {
+	color: #343434;
+	font-size: 17px;
+}
+.tb li .wen span {
+	color: #656565;
+	font-size: 14px;
+}
+
+.zbx {
+	padding-left: 52px;
+	height: 187px;
+	border-bottom: 0.5px solid #c6c6c6;
+
+}
+.zbx dl {
+	margin-right: 121px;
+}
+ .zbx dl:nth-child(6) {
+	margin-right: 0px;
+} 
+.zbx dl dt {
+	font-size: 18px;
+	color: #363636;
+    height: 31px; 
+}
+.zbx dl dd {
+	font-size: 12px;
+	height:22px;
+	color: #323232;
+}
+
+.zbx .phto {
+	width: 90px;
+	height: 90px;
+	background: url('../imgas/wx_cz.jpg') no-repeat;
+}
+.zbx .help {
+	line-height: 31px;
+	width: 90px;
+	 padding-left: 12px; 
+
+}
+
+
+
+.zhh {
+	padding-left:117px;
+		margin-top: 19px;
+}
+ .zhh .dad .line {
+	width: 1px;
+	height: 10px;
+	background: #9b9b9b;
+	margin: 4px 13px;
+} 
+.zhh .dad li {
+	font-size: 12px;
+	color: #696969;
+}
+
+
+.zhh .wzz {
+	line-height: 22px;
+	color: 11px;
+	color: #676767;
+	text-align: center;
+}

@@ -1,0 +1,118 @@
+.nav .fenL {
+	position: absolute;
+	left: 0;
+	top: 105px;
+}
+.nav .fenL h3 {
+	width: 209px;
+	height: 45px;
+	font-size: 18px;
+	color: #fefff7;
+	line-height: 45px;
+	text-align: center;
+	background: #b11a1a;
+}
+.nav .fenL li {
+	display: none;
+	height: 31px;
+	line-height: 31px;
+	padding: 0 10px;
+	background: #c81822;
+}
+.nav .fenL li a {
+	font-size: 14px;
+	color: #fee3d5;
+}
+.nav .fenL li span {
+	float: right;
+	color: #fee3d5;
+}
+.nav .fenL:hover li {
+    display: block;
+}
+.nav .fenL li:hover {
+	background: #f7f7f7; 
+}
+.nav .fenL li:hover a {
+	color: #c81822;
+}
+/* 导航结束 */
+
+	
+.mian {
+	margin-top: 26px;
+}
+.broad li{
+	float: left;
+	font-size: 14px;
+	color: #797979;
+}
+.broad li span {
+	font-size: 12px;
+	margin: 0 18px;
+}
+
+.ip-left .left-t {
+	width: 400px;
+	height: 400px;
+	position: relative;
+	border: 1px solid #dedede;
+	margin-bottom: 63px;
+}
+.ip-left .left-t li {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.left-t  img {
+	 width: 100%;
+}
+.left-dt {
+	margin-bottom: 32px;
+}
+.left-dt li {
+
+	float: left;
+	width: 56px;
+	height: 56px;
+
+	line-height: 56px;
+	overflow: hidden;
+}
+.left-dt li:hover {
+	   position: relative;
+	 	outline: 1px solid red; 
+}
+.left-dt li img {
+	width:100%;
+}
+.left-dt li:first-child:hover,
+.left-dt li:last-child:hover {
+	outline: none;
+}
+.left-dt li:first-child,
+.left-dt li:last-child {
+	 width: 22px; 
+
+}
+.left-dt li:first-child {
+	margin-right: 32px;
+}
+.left-dt li:last-child {
+	 margin-left: 32px;
+
+}
+.left-text span:first-child {
+      margin-right: 30px;
+}
+.iconfont {
+	color:#bc778e;
+}
+.left-text span:nth-child(2) {
+	margin-right: 36px;
+}
+.left-text input {
+	margin-left:46px;
+   vertical-align: middle;
+}
+

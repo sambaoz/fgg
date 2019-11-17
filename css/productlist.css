@@ -1,0 +1,115 @@
+.miao {
+	height: 26px;
+	width: 72px;
+	margin-top: 35px;
+	border-left: 1px solid #ca1325;
+	margin-left: 13px;
+}
+.miao img {
+	margin-left: 13px;
+}
+.htz {
+	  position: absolute;
+	 left: 28px;
+	 top: 120px; 
+}
+.htz  li {
+	float: left;
+	margin-right: 57px;
+	font-weight: 600;
+}
+.htz  li a{
+	font-size: 18px;
+	color: #030303;
+}
+.nav .xdd  {
+	
+     left: 390px;
+     top: 120px;
+}
+.nav .xdd li {
+	float: left;
+}
+.nvx {
+	margin-bottom: 24px;
+}
+
+
+.phone{
+	margin-bottom: 282px;
+}
+.tpp {
+	height: 290px;
+
+	margin-bottom: 10px;
+}
+.tpp img {
+ 	width: 100%; 
+}
+.phone li {
+	   width: 290px;
+    /*    border: 1px solid red; */
+      float: left;
+      margin-right: 13px;
+       transition: all 2s;
+}
+.phone li:nth-child(4n) {
+   margin-right:0px;
+}
+.phone li:hover {
+    outline: 1px solid red;
+   box-shadow: 1px 2px 10px 10px rgba(0,0,0,.3);
+    transform:translateY(2px);
+}
+.phone .ph-text {
+	padding: 0 12px;
+
+}
+.phone li>span {
+	font-size: 12px;
+	color:#919191;
+	 line-height: 18px; 
+}
+.phone li p {
+	margin-top: 9px;
+	font-size: 20px;
+	color: #e40311;
+}
+.phone li span {
+	font-size: 14px;
+}
+.phone li del {
+	font-size: 14px;
+	color: #a2a2a2
+}
+
+.yis {
+	margin-top: 7px;
+}
+.dt {
+	display: inline-block;
+	height: 10px;
+	width: 122px;
+	font-size: 14px;
+	border: 1px solid  #ea292d;
+	border-radius: 5px;
+	margin: 0 6px;
+}
+.dt div {
+	height: 10px;
+	width: 87%;
+	background: #ea292d;
+}
+ span em {
+	color: #ea292d;
+}
+.phone li a {
+	display: block;
+	height: 50px;
+	background: #b11a1a;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: #ffffff;
+
+}
